@@ -34,16 +34,16 @@ const data = [
   const hasFour = numbers.includes(4)
   console.log(hasFour)
 
-  //map
+  //map (important)
   data.map((i) => i.newsletter = false)
 
   console.log(data)
 
-  // filter
+  // filter (important)
   const drivers = data.filter((i) => i.driverLicense === true)
   console.log(drivers)
 
-  //reduce
+  //reduce (important)
   const sallariesSum = data.reduce(
     (totalSallary, i) => (totalSallary+=i.sallary), 0)
 
